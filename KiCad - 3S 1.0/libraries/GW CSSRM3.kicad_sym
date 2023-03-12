@@ -29,7 +29,7 @@
       )
       (pin input line (at 0 -6.35 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
-        (number "GND" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
       )
     )
   )

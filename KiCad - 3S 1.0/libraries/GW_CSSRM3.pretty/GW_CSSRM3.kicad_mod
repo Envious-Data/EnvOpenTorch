@@ -19,7 +19,7 @@
     (thermal_bridge_angle 45) (tstamp ee0b70c4-6fce-4d47-b50d-f3ee3784fcab))
   (pad "2" smd roundrect (at -1.1 0) (size 0.5 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp 13598f1f-3bcd-45e0-87ba-c4379d2cf35b))
-  (pad "GND" smd custom (at 0 0) (size 1 2.7) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "3" smd custom (at 0 0) (size 1 2.7) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45)
     (options (clearance outline) (anchor rect))
     (primitives
