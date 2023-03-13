@@ -158,8 +158,8 @@
       (net 24 "Net-(MainLED1-K)") (pinfunction "K") (pintype "passive") (tstamp 820e5db7-9df2-46f5-8c97-3decad57dcd6))
     (pad "2" smd rect (at 1.375 0) (size 1.25 2.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 15 "Net-(MainLED1-A)") (pinfunction "A") (pintype "passive") (tstamp 40424709-169b-4cec-922f-367b2677886b))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_PLCC_2835.wrl"
-      (offset (xyz 0 0 0))
+    (model "C:/Users/Envy/Documents/GitHub/_RESOURCES/LED 2835.stp"
+      (offset (xyz -1.85 -1.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -216,8 +216,8 @@
       (net 24 "Net-(MainLED1-K)") (pinfunction "K") (pintype "passive") (tstamp 3be34371-cdaf-4880-8ceb-b7ac246d5d0a))
     (pad "2" smd rect (at 1.375 0) (size 1.25 2.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 15 "Net-(MainLED1-A)") (pinfunction "A") (pintype "passive") (tstamp 8a4e2a05-6566-448d-984d-320409f97f7d))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_PLCC_2835.wrl"
-      (offset (xyz 0 0 0))
+    (model "C:/Users/Envy/Documents/GitHub/_RESOURCES/LED 2835.stp"
+      (offset (xyz -1.85 -1.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -274,8 +274,8 @@
       (net 24 "Net-(MainLED1-K)") (pinfunction "K") (pintype "passive") (tstamp ae895b1c-f93d-4cab-801a-cc8caf302f7b))
     (pad "2" smd rect (at 1.375 0) (size 1.25 2.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 15 "Net-(MainLED1-A)") (pinfunction "A") (pintype "passive") (tstamp f838e4d9-1a25-4698-a722-d8cc3c28a074))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_PLCC_2835.wrl"
-      (offset (xyz 0 0 0))
+    (model "C:/Users/Envy/Documents/GitHub/_RESOURCES/LED 2835.stp"
+      (offset (xyz -1.85 -1.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -492,8 +492,8 @@
       (net 24 "Net-(MainLED1-K)") (pinfunction "K") (pintype "passive") (tstamp db5daba1-48a4-4dc4-be4f-356a40ff14f8))
     (pad "2" smd rect (at 1.375 0) (size 1.25 2.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 15 "Net-(MainLED1-A)") (pinfunction "A") (pintype "passive") (tstamp 9a462fdb-3e38-40f7-810c-1a39947fa800))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_PLCC_2835.wrl"
-      (offset (xyz 0 0 0))
+    (model "C:/Users/Envy/Documents/GitHub/_RESOURCES/LED 2835.stp"
+      (offset (xyz -1.85 -1.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -550,8 +550,8 @@
       (net 24 "Net-(MainLED1-K)") (pinfunction "K") (pintype "passive") (tstamp e91666c1-c997-446b-8f1b-50cb7ae95f8c))
     (pad "2" smd rect (at 1.375 0) (size 1.25 2.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 15 "Net-(MainLED1-A)") (pinfunction "A") (pintype "passive") (tstamp c1dd5347-e18f-41b2-b068-53f958b5216a))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_PLCC_2835.wrl"
-      (offset (xyz 0 0 0))
+    (model "C:/Users/Envy/Documents/GitHub/_RESOURCES/LED 2835.stp"
+      (offset (xyz -1.85 -1.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -759,8 +759,8 @@
       (net 24 "Net-(MainLED1-K)") (pinfunction "K") (pintype "passive") (tstamp 020426d7-f69f-4050-be18-605003b17ea6))
     (pad "2" smd rect (at 1.375 0) (size 1.25 2.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 15 "Net-(MainLED1-A)") (pinfunction "A") (pintype "passive") (tstamp e8f57095-7ba4-4fe6-8b10-7e2d38d1740c))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_PLCC_2835.wrl"
-      (offset (xyz 0 0 0))
+    (model "C:/Users/Envy/Documents/GitHub/_RESOURCES/LED 2835.stp"
+      (offset (xyz -1.85 -1.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -925,8 +925,8 @@
       (net 24 "Net-(MainLED1-K)") (pinfunction "K") (pintype "passive") (tstamp 923bfb76-da0e-452b-8f54-a0108f164d0a))
     (pad "2" smd rect (at 1.375 0) (size 1.25 2.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 15 "Net-(MainLED1-A)") (pinfunction "A") (pintype "passive") (tstamp 01d563ba-2c83-4399-8c6b-62d490f51c0e))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_PLCC_2835.wrl"
-      (offset (xyz 0 0 0))
+    (model "C:/Users/Envy/Documents/GitHub/_RESOURCES/LED 2835.stp"
+      (offset (xyz -1.85 -1.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -1037,8 +1037,8 @@
       (net 24 "Net-(MainLED1-K)") (pinfunction "K") (pintype "passive") (tstamp 0abbe1ed-dc23-4dfd-a9e3-7db728da9770))
     (pad "2" smd rect (at 1.375 0) (size 1.25 2.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 15 "Net-(MainLED1-A)") (pinfunction "A") (pintype "passive") (tstamp a982cb0b-4d35-41b3-a650-ee9d77b882e0))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_PLCC_2835.wrl"
-      (offset (xyz 0 0 0))
+    (model "C:/Users/Envy/Documents/GitHub/_RESOURCES/LED 2835.stp"
+      (offset (xyz -1.85 -1.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -1215,8 +1215,8 @@
       (net 24 "Net-(MainLED1-K)") (pinfunction "K") (pintype "passive") (tstamp 8a0994d7-0021-4792-a480-99747325d783))
     (pad "2" smd rect (at 1.375 0) (size 1.25 2.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 15 "Net-(MainLED1-A)") (pinfunction "A") (pintype "passive") (tstamp 9ffc2bc9-f2ce-4080-9d3b-b1d514aab1fa))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_PLCC_2835.wrl"
-      (offset (xyz 0 0 0))
+    (model "C:/Users/Envy/Documents/GitHub/_RESOURCES/LED 2835.stp"
+      (offset (xyz -1.85 -1.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )

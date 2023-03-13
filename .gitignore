@@ -27,5 +27,5 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
-!EnvLedTorch_cpl_jlc.csv
-!EnvLedTorch_bom_jlc.csv
+!*_cpl_jlc.csv
+!*_bom_jlc.csv
