@@ -1032,7 +1032,7 @@
     (property "Value" "SW_SPST" (at 40.005 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12" (at 40.005 43.815 0)
+    (property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x03_P3.6mm_D0.4mm_OD1mm" (at 40.005 43.815 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 40.005 43.815 0)
