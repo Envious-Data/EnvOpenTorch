@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS25750SRSMR
+D TPS25750SRSMR
+K
+F https://www.ti.com/lit/ds/symlink/tps25750.pdf?ts=1610417214819&ref_url=https%253A%252F%252Fwww.ti.com%252Finterface%252Fusb%252Ftype-c-and-power-delivery%252Fproducts.html
+$ENDCMP
+#
+#End Doc Library
