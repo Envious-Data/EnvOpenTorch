@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS54531DDAR
+D 3.5V to 28V Input, 5A, 570kHz Step-Down Converter with Eco-mode
+K
+F http://www.ti.com/lit/gpn/tps54531
+$ENDCMP
+#
+#End Doc Library

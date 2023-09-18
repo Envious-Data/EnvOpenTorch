@@ -6,4 +6,5 @@
   (lib (name "BQ25792RQMR")(type "KiCad")(uri "${KIPRJMOD}/libraries/BQ25792RQMR.pretty")(options "")(descr ""))
   (lib (name "TPS25750DRJKR")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS25750DRJKR.pretty")(options "")(descr ""))
   (lib (name "TPS25750S")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS25750S.pretty")(options "")(descr ""))
+  (lib (name "TPS54531DDAR")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS54531DDAR.pretty")(options "")(descr ""))
 )

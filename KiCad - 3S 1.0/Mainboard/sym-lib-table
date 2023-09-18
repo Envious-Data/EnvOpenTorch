@@ -9,4 +9,5 @@
   (lib (name "BQ25731")(type "KiCad")(uri "${KIPRJMOD}/libraries/BQ25731RSNR.pretty/BQ25731.kicad_sym")(options "")(descr ""))
   (lib (name "BQ25792RQMR")(type "KiCad")(uri "${KIPRJMOD}/libraries/BQ25792RQMR.pretty/BQ25792RQMR.kicad_sym")(options "")(descr ""))
   (lib (name "TPS25750DRJKR")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS25750DRJKR.pretty/TPS25750DRJKR.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS54531DDAR")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS54531DDAR.pretty/TPS54531DDAR.kicad_sym")(options "")(descr ""))
 )
