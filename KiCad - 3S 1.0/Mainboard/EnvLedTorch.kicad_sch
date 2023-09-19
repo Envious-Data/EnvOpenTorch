@@ -8370,7 +8370,7 @@
     (property "Value" "0.1uF 0402" (at 262.89 111.125 0)
       (effects (font (size 0.5 0.5)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 261.62 109.22 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 261.62 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 261.62 109.22 0)
