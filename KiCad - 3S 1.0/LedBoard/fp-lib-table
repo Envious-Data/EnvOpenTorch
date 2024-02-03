@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "GW_CSSRM3")(type "KiCad")(uri "${KIPRJMOD}/libraries/GW_CSSRM3.pretty")(options "")(descr ""))
   (lib (name "KW_H3L531.TE")(type "KiCad")(uri "${KIPRJMOD}/libraries/KW_H3L531.TE.pretty")(options "")(descr ""))
+  (lib (name "KW_CDLMM2.TK")(type "KiCad")(uri "${KIPRJMOD}/libraries/KW_CDLMM2.TK.pretty")(options "")(descr ""))
 )
