@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS566242DRLR
+D Switching Voltage Regulators 3-V to 16-V input voltage, 6-A ECO mode, synchronous buck converter in SOT-563 package
+K
+F https://www.ti.com/lit/ds/symlink/tps566242.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,10 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "HY2213")(type "KiCad")(uri "${KIPRJMOD}/libraries/HY2213.kicad_sym")(options "")(descr ""))
-  (lib (name "GW CSSRM3")(type "KiCad")(uri "${KIPRJMOD}/libraries/GW CSSRM3.kicad_sym")(options "")(descr ""))
-  (lib (name "CN5711")(type "KiCad")(uri "${KIPRJMOD}/libraries/CN5711.kicad_sym")(options "")(descr ""))
-  (lib (name "8254A")(type "KiCad")(uri "${KIPRJMOD}/libraries/8254A.kicad_sym")(options "")(descr ""))
-  (lib (name "TPS92200")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS92200.kicad_sym")(options "")(descr ""))
-  (lib (name "KW H3L531.TE")(type "KiCad")(uri "${KIPRJMOD}/libraries/KW H3L531.TE.kicad_sym")(options "")(descr ""))
-  (lib (name "KW_CDLMM2_TK-Y2Y6-4L16M1-2686")(type "KiCad")(uri "${KIPRJMOD}/libraries/KW_CDLMM2.TK.pretty/KW_CDLMM2_TK-Y2Y6-4L16M1-2686.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS566242DRLR")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS566242DRLR/TPS566242DRLR.kicad_sym")(options "")(descr ""))
 )
