@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "VJLPE1")(type "KiCad")(uri "${KIPRJMOD}/VJLPE1.pretty")(options "")(descr ""))
-  (lib (name "QTLTS2")(type "KiCad")(uri "${KIPRJMOD}/QTLTS2.pretty")(options "")(descr ""))
-)
