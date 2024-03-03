@@ -4,6 +4,8 @@
 ## Notes
 This design is a bit jank and can certaily do with some improvement, If you feel like doing that then please do so and make a PR.
 
+oh yeah this readme is very likely going to be out of date untill we get a 1st prototype made.
+
 ## Usage
 this board is to be used with 3x 18650 li-ion cells and OSRAM GW_CSSRM3 or similar.
 
