@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "GWVJLPL1CMK3LXXX511")(type "KiCad")(uri "${KIPRJMOD}/libraries/GWVJLPL1CMK3LXXX511")(options "")(descr ""))
   (lib (name "TPS566242DRLR")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS566242DRLR")(options "")(descr ""))
+  (lib (name "7-5530843-7")(type "KiCad")(uri "${KIPRJMOD}/libraries/7-5530843-7")(options "")(descr ""))
 )
