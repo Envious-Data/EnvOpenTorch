@@ -424,7 +424,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -535,6 +535,10 @@
     [
       "f1c719f6-f1ad-4e81-8891-bde8a483290d",
       ""
+    ],
+    [
+      "8fd75192-e7d5-4596-9630-af8e926e4b7c",
+      "LED Driver"
     ]
   ],
   "text_variables": {}
