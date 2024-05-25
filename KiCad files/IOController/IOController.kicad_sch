@@ -1965,7 +1965,7 @@
     (property "Reference" "J6" (at 172.085 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "XT60 Horizontal Socket" (at 172.085 39.37 0)
+    (property "Value" "edge connector" (at 172.085 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 168.91 36.83 0)

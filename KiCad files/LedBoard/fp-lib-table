@@ -4,4 +4,5 @@
   (lib (name "TPS566242DRLR")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS566242DRLR")(options "")(descr ""))
   (lib (name "7-5530843-7")(type "KiCad")(uri "${KIPRJMOD}/libraries/7-5530843-7")(options "")(descr ""))
   (lib (name "GW_VJLPE1")(type "KiCad")(uri "${KIPRJMOD}/libraries/GW_VJLPE1")(options "")(descr ""))
+  (lib (name "L150-5790500600000")(type "KiCad")(uri "${KIPRJMOD}/libraries/L150-5790500600000")(options "")(descr ""))
 )
