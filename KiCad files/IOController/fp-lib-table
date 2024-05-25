@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Panasonic evqwgd001")(type "KiCad")(uri "${KIPRJMOD}/libraries/Panasonic evqwgd001")(options "")(descr ""))
   (lib (name "TPS922054DMTR")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS922054DMTR")(options "")(descr ""))
+  (lib (name "EnvExtras")(type "KiCad")(uri "${KIPRJMOD}/EnvExtras.pretty")(options "")(descr ""))
 )
