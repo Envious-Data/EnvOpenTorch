@@ -4,15 +4,7 @@
 ## Notes
 This design is a bit jank and can certaily do with some improvement, If you feel like doing that then please do so and make a PR.
 
-oh yeah this readme is very likely going to be out of date untill we get a 1st prototype made.
+Generally speaking is to have a decently powerful open source LED torch, Im hoping for 10K lumens and some basic brightness control, anything else is bonnus features but there are some i'd like such as PD charging and being able to act as a battery bank if needed.
 
-## Usage
-this board is to be used with 3x 18650 li-ion cells and OSRAM GW_CSSRM3 or similar.
-
-for how to connect everything up, refer to the schematic or the 8254 datasheet.
-
-### Future Features/plans
-- replace switch with reed switch
-- Implement USB PD
-- Replace charge and balancing circuit with a single IC
-- replace LED circuit
+## Future plans
+Im probably going to sell this as a full unit or kit other than the need to supply your own cells, I havent decided on 3S2P or 6S1P but for the time being the charge circuit can handle upto 4S.
