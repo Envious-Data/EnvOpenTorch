@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "TPS922054DMTR")(type "Legacy")(uri "${KIPRJMOD}/libraries/TPS922054DMTR/TPS922054DMTR.lib")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_RP2040")(type "Legacy")(uri "${KIPRJMOD}/libraries/RP2040_minimal_r2.pretty/MCU_RaspberryPi_RP2040.lib")(options "")(descr ""))
 )

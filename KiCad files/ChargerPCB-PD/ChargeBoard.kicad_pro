@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.27,
-          "width": 10.0
+          "height": 2.7,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -56,9 +56,21 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.25,
+          "via_gap": 0.0,
+          "width": 0.15
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_near_hole|34220000|36200000|11e5f722-9045-4d58-b05e-41d209d9748f|99558452-1808-406d-b93d-d7a333f9351f",
+        "hole_near_hole|34220000|36610000|99558452-1808-406d-b93d-d7a333f9351f|3cf74aec-158b-46e5-b72d-7e68800c3dd2",
+        "hole_near_hole|34220000|37020000|3cf74aec-158b-46e5-b72d-7e68800c3dd2|f1567aa3-5e48-4aee-b563-f297d759713a",
+        "hole_near_hole|34220000|37840000|e501c5c5-c695-4201-88e5-4ee19529b666|f1567aa3-5e48-4aee-b563-f297d759713a",
+        "hole_near_hole|34220000|38250000|57401736-6bd7-4120-8825-33be97952388|e501c5c5-c695-4201-88e5-4ee19529b666",
+        "hole_near_hole|34220000|38660000|f3c51a16-0d79-4b45-b1b8-c7a9e2dc6cd0|57401736-6bd7-4120-8825-33be97952388"
+      ],
       "meta": {
         "version": 2
       },
@@ -66,7 +78,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "warning",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
@@ -86,21 +98,21 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "ignore",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "warning",
+        "npth_inside_courtyard": "ignore",
         "padstack": "error",
-        "pth_inside_courtyard": "warning",
+        "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
-        "silk_over_copper": "warning",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "ignore",
+        "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
@@ -117,17 +129,17 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.15,
-        "min_connection": 0.15,
+        "min_connection": 0.0,
         "min_copper_edge_clearance": 0.25,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.5,
+        "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.15,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
@@ -181,21 +193,14 @@
       ],
       "track_widths": [
         0.0,
-        0.25,
+        0.15,
+        0.2,
         0.3,
-        0.35,
         0.4,
-        0.45,
         0.5,
-        0.55,
         0.6,
-        0.65,
         0.7,
-        0.75,
         0.8,
-        0.85,
-        0.9,
-        0.95,
         1.0,
         1.1,
         1.2,
@@ -236,8 +241,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
-          "drill": 0.3
+          "diameter": 0.4,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.35
         },
         {
           "diameter": 0.8,
@@ -461,10 +470,10 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "ignore",
+      "simulation_model_issue": "error",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -476,7 +485,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "IOController.kicad_pro",
+    "filename": "ChargeBoard.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -494,8 +503,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
@@ -514,7 +523,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "IOController.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -572,13 +581,61 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field4",
+          "name": "Field4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -621,12 +678,8 @@
   },
   "sheets": [
     [
-      "f1c719f6-f1ad-4e81-8891-bde8a483290d",
+      "d80cef19-75ee-4cfe-8d31-e56b6cad8d97",
       "Root"
-    ],
-    [
-      "8fd75192-e7d5-4596-9630-af8e926e4b7c",
-      "LED Driver"
     ]
   ],
   "text_variables": {}
