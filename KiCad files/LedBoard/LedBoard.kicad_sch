@@ -1290,6 +1290,18 @@
 		)
 		(uuid "fbef2f73-1dc1-4aed-85a8-68f42e697b58")
 	)
+	(text "SWAP FOR 20W OSLON LEDS IN SERIES."
+		(exclude_from_sim no)
+		(at 97.79 123.19 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "b5671126-b3bb-42ae-816a-bdc99e75f53b")
+	)
 	(symbol
 		(lib_name "L150-5790500600000_1")
 		(lib_id "L150-5790500600000:L150-5790500600000")

@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "086360ec-2e20-441a-8a04-00e09a0f2a2d")
-	(paper "A3")
+	(paper "A5")
 	(lib_symbols
 		(symbol "Connector:AVR-ISP-6"
 			(pin_names
@@ -1690,7 +1690,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.025 147.32) (xy 69.215 147.32)
+			(xy 176.53 61.595) (xy 172.72 61.595)
 		)
 		(stroke
 			(width 0)
@@ -1750,7 +1750,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.025 142.24) (xy 69.215 142.24)
+			(xy 176.53 56.515) (xy 172.72 56.515)
 		)
 		(stroke
 			(width 0)
@@ -1770,7 +1770,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.025 139.7) (xy 69.215 139.7)
+			(xy 176.53 53.975) (xy 172.72 53.975)
 		)
 		(stroke
 			(width 0)
@@ -1870,7 +1870,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.025 144.78) (xy 69.215 144.78)
+			(xy 176.53 59.055) (xy 172.72 59.055)
 		)
 		(stroke
 			(width 0)
@@ -1929,7 +1929,7 @@
 		(uuid "fde342e2-7192-476b-a81e-ae1ab367363d")
 	)
 	(label "PC3"
-		(at 73.025 147.32 180)
+		(at 176.53 61.595 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2105,7 +2105,7 @@
 		(uuid "c38605c7-6969-4326-9845-d4c4bef4536e")
 	)
 	(label "PB1"
-		(at 73.025 142.24 180)
+		(at 176.53 56.515 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2149,7 +2149,7 @@
 		(uuid "e5e85ec9-ffd6-459b-bd9c-1341cd50669d")
 	)
 	(label "PB2"
-		(at 73.025 139.7 180)
+		(at 176.53 53.975 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2160,7 +2160,7 @@
 		(uuid "f20d1eff-7a72-4008-812e-647fad6afd3d")
 	)
 	(label "PC1"
-		(at 73.025 144.78 180)
+		(at 176.53 59.055 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2933,7 +2933,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 56.515 154.94 0)
+		(at 160.02 69.215 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2942,7 +2942,7 @@
 		(fields_autoplaced yes)
 		(uuid "728fd358-0393-4a31-bf46-0a82a88b58b8")
 		(property "Reference" "#PWR07"
-			(at 56.515 161.29 0)
+			(at 160.02 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2951,7 +2951,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 56.515 160.02 0)
+			(at 160.02 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,7 +2959,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 56.515 154.94 0)
+			(at 160.02 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2968,7 +2968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 56.515 154.94 0)
+			(at 160.02 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,7 +2977,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 56.515 154.94 0)
+			(at 160.02 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3065,7 +3065,7 @@
 	)
 	(symbol
 		(lib_id "Connector:AVR-ISP-6")
-		(at 59.055 144.78 0)
+		(at 162.56 59.055 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3074,7 +3074,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a919aa0-7577-4714-b79d-948dc1ec5ddc")
 		(property "Reference" "J1"
-			(at 49.53 142.2399 0)
+			(at 153.035 56.5149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,7 +3083,7 @@
 			)
 		)
 		(property "Value" "AVR-ISP-6"
-			(at 49.53 144.7799 0)
+			(at 153.035 59.0549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3092,7 +3092,7 @@
 			)
 		)
 		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
-			(at 52.705 143.51 90)
+			(at 156.21 57.785 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,7 +3101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 158.75 0)
+			(at 130.175 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,7 +3110,7 @@
 			)
 		)
 		(property "Description" "Atmel 6-pin ISP connector"
-			(at 59.055 144.78 0)
+			(at 162.56 59.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3621,7 +3621,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 56.515 132.08 0)
+		(at 160.02 46.355 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3630,7 +3630,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb08e6c4-c415-4365-a395-a6024a9cdf58")
 		(property "Reference" "#PWR06"
-			(at 56.515 135.89 0)
+			(at 160.02 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,7 +3639,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 56.515 127 0)
+			(at 160.02 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,7 +3647,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 56.515 132.08 0)
+			(at 160.02 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3656,7 +3656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 56.515 132.08 0)
+			(at 160.02 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3665,7 +3665,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 56.515 132.08 0)
+			(at 160.02 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4483,9 +4483,9 @@
 		(at 137.795 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a490fea2-c094-4893-bf73-d75ab0796827")
 		(property "Reference" "R14"
 			(at 140.335 37.465 90)
@@ -4495,7 +4495,7 @@
 				)
 			)
 		)
-		(property "Value" "2512 120mR"
+		(property "Value" "2512 66mR"
 			(at 137.795 36.83 90)
 			(effects
 				(font
@@ -4923,7 +4923,7 @@
 				)
 			)
 		)
-		(property "Value" "SRP1770TA-100M"
+		(property "Value" "SRP1770TA-220M"
 			(at 105.41 43.18 90)
 			(effects
 				(font
@@ -4990,7 +4990,7 @@
 				)
 			)
 		)
-		(property "Value" "2512 120mR"
+		(property "Value" "2512 33mR"
 			(at 137.795 40.005 90)
 			(effects
 				(font
@@ -5327,7 +5327,7 @@
 				)
 			)
 		)
-		(property "Value" "Rovp1 200K 0402"
+		(property "Value" "Rovp1 500K 0402"
 			(at 153.924 61.976 90)
 			(effects
 				(font
