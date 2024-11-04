@@ -4022,7 +4022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS922054DMTR:SON65P300X450X100-15N-D"
+		(property "Footprint" "Package_SON:VSON-14-1EP_3x4.45mm_P0.65mm_EP1.6x4.2mm_ThermalVias"
 			(at 119.38 56.515 0)
 			(effects
 				(font
