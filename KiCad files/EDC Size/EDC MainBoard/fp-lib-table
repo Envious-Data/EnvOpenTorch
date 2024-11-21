@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CSD87501L")(type "KiCad")(uri "${KIPRJMOD}/resources/CSD87501L.pretty")(options "")(descr ""))
+  (lib (name "TPS25730")(type "KiCad")(uri "${KIPRJMOD}/resources/TPS25730.pretty")(options "")(descr ""))
+  (lib (name "BQ25638")(type "KiCad")(uri "${KIPRJMOD}/resources/BQ25638.pretty")(options "")(descr ""))
+  (lib (name "BQ25622ERYKR")(type "KiCad")(uri "${KIPRJMOD}/resources/BQ25622ERYKR.pretty")(options "")(descr ""))
+)

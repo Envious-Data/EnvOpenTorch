@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BQ25638YBGR
+D High-efficiency 5-A, 1.5-MHz, synchronous switch mode buck charger for single cell battery  >90% efficiency down to 10-mA output current from 5-V input  Charge current up to 5 A in 80-mA steps  Charge termination from 30 to 1000 mA in 10- mA steps  Flexible JEITA profile for safe charging over temperature  BATFET control to support shutdown and full system reset
+K
+F https://www.ti.com/lit/gpn/bq25638
+$ENDCMP
+#
+#End Doc Library

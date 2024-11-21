@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CSD87501L
+#/746195/539156/2.50/10/4/MOSFET (N-Channel)
+DEF CSD87501L Q 0 30 Y Y 1 F N
+F0 "Q" 950 300 50 H V L CNN
+F1 "CSD87501L" 950 200 50 H V L CNN
+F2 "CSD87501L" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/csd87501l" 950 0 50 H I L CNN
+F4 "CSD87501L 30-V Dual N-Channel Common Drain NexFET Power MOSFET" 950 -100 50 H I L CNN "Description"
+F5 "0.22" 950 -200 50 H I L CNN "Height"
+F6 "595-CSD87501L" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD87501L?qs=OfeFRKQgECirZTxmyusNTA%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "CSD87501L" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X S1_1 A1 0 0 200 R 50 50 0 0 P
+X S2_1 A2 1100 0 200 L 50 50 0 0 P
+X S1_2 B1 0 -100 200 R 50 50 0 0 P
+X S2_2 B2 1100 -100 200 L 50 50 0 0 P
+X G1 C1 0 -200 200 R 50 50 0 0 P
+X G2 C2 1100 -200 200 L 50 50 0 0 P
+X S1_3 D1 0 -300 200 R 50 50 0 0 P
+X S2_3 D2 1100 -300 200 L 50 50 0 0 P
+X S1_4 E1 0 -400 200 R 50 50 0 0 P
+X S2_4 E2 1100 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
