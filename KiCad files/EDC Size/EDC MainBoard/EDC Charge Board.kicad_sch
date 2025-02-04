@@ -3535,6 +3535,18 @@
 		)
 		(uuid "f69bba6d-22f9-4c14-b16a-dcffd49a4875")
 	)
+	(text "OSRAM\n3030"
+		(exclude_from_sim no)
+		(at 149.86 139.7 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "25ed3f74-93f1-4cef-910d-c063118f56fc")
+	)
 	(text "MP3362"
 		(exclude_from_sim no)
 		(at 110.49 172.72 0)
@@ -3546,6 +3558,18 @@
 			)
 		)
 		(uuid "5e24a4f5-ed84-4c76-8a1e-8dbb66b49f45")
+	)
+	(text "ATTINY"
+		(exclude_from_sim no)
+		(at 149.86 172.72 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "72459038-13b8-4e73-a3e7-ab2c3135586a")
 	)
 	(text "BQ25622"
 		(exclude_from_sim no)
@@ -3561,7 +3585,6 @@
 	)
 	(label "FAULT_IN"
 		(at 121.92 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3572,7 +3595,6 @@
 	)
 	(label "FAULT_IN"
 		(at 251.46 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -8162,7 +8184,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "04ac8077-9294-4a37-87a6-64a114a87d38")
-		(property "Sheetname" "BQ25622ERYKR"
+		(property "Sheetname" "Battery Charger"
 			(at 17.78 156.7684 0)
 			(effects
 				(font
@@ -8189,6 +8211,44 @@
 		)
 	)
 	(sheet
+		(at 134.62 129.54)
+		(size 30.48 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "94cdb838-ae5c-400f-a57f-e75b6cec832c")
+		(property "Sheetname" "LED BOARD"
+			(at 134.62 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_board.kicad_sch"
+			(at 134.62 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EDC Charge Board"
+				(path "/e60e5011-22d9-49f2-91b7-a37b3d4aa83f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 88.9 157.48)
 		(size 41.91 30.48)
 		(fields_autoplaced yes)
@@ -8200,7 +8260,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9d3a3439-4316-484e-848e-5c2abe0bf2f6")
-		(property "Sheetname" "MP3362"
+		(property "Sheetname" "LED Driver"
 			(at 88.9 156.7684 0)
 			(effects
 				(font
@@ -8222,6 +8282,44 @@
 			(project "EDC Charge Board"
 				(path "/e60e5011-22d9-49f2-91b7-a37b3d4aa83f"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 157.48)
+		(size 30.48 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f44c58d4-cf73-414f-9d7a-c4ebdedbd5fd")
+		(property "Sheetname" "MCU"
+			(at 134.62 156.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 134.62 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EDC Charge Board"
+				(path "/e60e5011-22d9-49f2-91b7-a37b3d4aa83f"
+					(page "4")
 				)
 			)
 		)

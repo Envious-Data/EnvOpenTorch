@@ -4,4 +4,5 @@
   (lib (name "TPS25730")(type "KiCad")(uri "${KIPRJMOD}/resources/TPS25730.pretty")(options "")(descr ""))
   (lib (name "BQ25638")(type "KiCad")(uri "${KIPRJMOD}/resources/BQ25638.pretty")(options "")(descr ""))
   (lib (name "BQ25622ERYKR")(type "KiCad")(uri "${KIPRJMOD}/resources/BQ25622ERYKR.pretty")(options "")(descr ""))
+  (lib (name "osram3030")(type "KiCad")(uri "${KIPRJMOD}/resources/osram3030.pretty")(options "")(descr ""))
 )

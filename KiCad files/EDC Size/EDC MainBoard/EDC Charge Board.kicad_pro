@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.15,
-          "height": 0.25,
-          "width": 0.25
+          "drill": 0.0,
+          "height": 2.2,
+          "width": 0.38
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -662,11 +662,19 @@
     ],
     [
       "04ac8077-9294-4a37-87a6-64a114a87d38",
-      "BQ25622ERYKR"
+      "Battery Charger"
     ],
     [
       "9d3a3439-4316-484e-848e-5c2abe0bf2f6",
-      "MP3362"
+      "LED Driver"
+    ],
+    [
+      "f44c58d4-cf73-414f-9d7a-c4ebdedbd5fd",
+      "MCU"
+    ],
+    [
+      "94cdb838-ae5c-400f-a57f-e75b6cec832c",
+      "LED BOARD"
     ]
   ],
   "text_variables": {}

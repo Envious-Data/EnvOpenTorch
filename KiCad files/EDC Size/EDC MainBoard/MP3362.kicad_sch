@@ -1676,6 +1676,16 @@
 		)
 		(uuid "fb3cba42-de56-49ed-993a-2f2548125e87")
 	)
+	(text "SYS Voltage = 4.8V"
+		(exclude_from_sim no)
+		(at 26.035 32.385 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "653ce773-38cb-40f0-9662-03a3361d214e")
+	)
 	(global_label "LED-"
 		(shape input)
 		(at 110.49 54.61 0)
@@ -1700,7 +1710,7 @@
 	)
 	(global_label "LED+"
 		(shape input)
-		(at 138.43 31.75 180)
+		(at 147.32 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1710,7 +1720,7 @@
 		)
 		(uuid "1299bd65-0d48-412b-94e8-e5d4caea0977")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.4253 31.75 0)
+			(at 139.3153 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,7 +1754,7 @@
 	)
 	(global_label "THERMISTOR_A"
 		(shape input)
-		(at 138.43 26.67 180)
+		(at 147.32 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1754,7 +1764,7 @@
 		)
 		(uuid "2e5f71ce-a549-4891-9ec3-46ffa7924ac4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.8377 26.67 0)
+			(at 130.7277 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,7 +1820,7 @@
 	)
 	(global_label "THERMISTOR_B"
 		(shape input)
-		(at 138.43 29.21 180)
+		(at 147.32 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1820,7 +1830,7 @@
 		)
 		(uuid "bc45b6d3-281d-4f0d-a51f-6ede510b1361")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.6563 29.21 0)
+			(at 130.5463 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,7 +1842,7 @@
 	)
 	(global_label "LED-"
 		(shape input)
-		(at 138.43 34.29 180)
+		(at 147.32 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1842,7 +1852,7 @@
 		)
 		(uuid "cc54516a-7fb7-4de3-812b-6031d66ea312")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.4253 34.29 0)
+			(at 139.3153 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2775,7 +2785,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 143.51 29.21 0)
+		(at 152.4 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2784,7 +2794,7 @@
 		(fields_autoplaced yes)
 		(uuid "853588f1-04a1-4e7b-a4e1-f24c2984921b")
 		(property "Reference" "J10"
-			(at 146.05 29.2099 0)
+			(at 154.94 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2793,7 +2803,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 146.05 31.7499 0)
+			(at 154.94 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2802,7 +2812,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 143.51 29.21 0)
+			(at 152.4 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,7 +2821,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 29.21 0)
+			(at 152.4 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +2830,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 143.51 29.21 0)
+			(at 152.4 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3009,20 +3019,20 @@
 		(dnp no)
 		(uuid "a6dc2007-a019-442d-b0b4-07068437069e")
 		(property "Reference" "R36"
-			(at 105.664 59.69 90)
+			(at 106.045 57.785 0)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
 			)
 		)
-		(property "Value" "1R 2512"
-			(at 103.124 59.69 90)
+		(property "Value" "0.033 ohm 2512 2W"
+			(at 105.41 59.055 0)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(justify top)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
@@ -3221,7 +3231,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF 50V"
+		(property "Value" "10uF 0402"
 			(at 108.712 38.1 0)
 			(effects
 				(font
@@ -3631,7 +3641,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF 50V"
+		(property "Value" "2.2uF 50V 0402"
 			(at 100.838 38.1 0)
 			(effects
 				(font

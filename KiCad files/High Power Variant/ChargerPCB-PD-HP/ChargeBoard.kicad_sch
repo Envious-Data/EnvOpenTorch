@@ -5484,12 +5484,6 @@
 		(uuid "dcf71489-c071-4492-b8c6-fd3bbdcb8692")
 	)
 	(junction
-		(at 266.7 167.005)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd3c3be5-2044-4454-bb6c-7a0b4fba0959")
-	)
-	(junction
 		(at 353.06 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5925,7 +5919,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 121.92) (xy 389.255 121.92)
+			(xy 393.7 119.38) (xy 389.255 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6495,7 +6489,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 124.46) (xy 389.255 124.46)
+			(xy 392.43 124.46) (xy 389.89 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7035,7 +7029,7 @@
 	)
 	(wire
 		(pts
-			(xy 389.255 124.46) (xy 389.255 121.92)
+			(xy 389.89 124.46) (xy 389.89 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7255,16 +7249,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.065 167.005) (xy 266.7 167.005)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4484007-b76a-49ad-89b0-579c02057cf5")
-	)
-	(wire
-		(pts
 			(xy 396.24 28.575) (xy 389.89 28.575)
 		)
 		(stroke
@@ -7272,6 +7256,16 @@
 			(type default)
 		)
 		(uuid "a6641aaa-2fc6-4e89-8df0-f09618d2aac5")
+	)
+	(wire
+		(pts
+			(xy 389.255 119.38) (xy 389.255 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9246f40-ad96-4e7e-b736-a62a5e953348")
 	)
 	(wire
 		(pts
@@ -7795,6 +7789,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 121.92) (xy 389.255 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8fcc0e3-11c7-460d-ba28-7cf3735c71e6")
+	)
+	(wire
+		(pts
 			(xy 363.855 77.47) (xy 374.015 77.47)
 		)
 		(stroke
@@ -8235,8 +8239,8 @@
 	)
 	(text_box "ICs to look at for 240W EPR"
 		(exclude_from_sim no)
-		(at 20.32 180.975 0)
-		(size 30.48 10.795)
+		(at 12.7 302.895 0)
+		(size 33.02 19.685)
 		(stroke
 			(width 0)
 			(type default)
@@ -8254,12 +8258,11 @@
 	)
 	(text "Need to swap for BQ25731\neventually"
 		(exclude_from_sim no)
-		(at 287.02 92.71 0)
+		(at 16.51 317.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left bottom)
 		)
@@ -8267,7 +8270,7 @@
 	)
 	(text "BQ25756E"
 		(exclude_from_sim no)
-		(at 26.67 189.23 0)
+		(at 21.59 311.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8277,7 +8280,7 @@
 	)
 	(text "TPS25751"
 		(exclude_from_sim no)
-		(at 26.67 186.69 0)
+		(at 21.59 308.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8617,7 +8620,7 @@
 	)
 	(global_label "SYS"
 		(shape input)
-		(at 392.43 121.92 0)
+		(at 393.7 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8627,7 +8630,7 @@
 		)
 		(uuid "2c6736b4-0afb-4d2b-9781-8b93e8047093")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 398.9228 121.92 0)
+			(at 400.1928 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10536,7 +10539,7 @@
 		(dnp no)
 		(uuid "11e031c5-4380-40f7-b1d6-50b8e04ae250")
 		(property "Reference" "D1"
-			(at 352.425 31.115 90)
+			(at 351.79 31.75 90)
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -10545,12 +10548,11 @@
 			)
 		)
 		(property "Value" "Diode, Schottky, 40 V, 5 A, SMC"
-			(at 351.79 32.385 90)
+			(at 349.885 34.925 90)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMC"
@@ -11835,7 +11837,7 @@
 		(dnp no)
 		(uuid "22c902e1-eafd-4ebb-8f76-46caed5171f7")
 		(property "Reference" "C56"
-			(at 77.47 27.305 0)
+			(at 78.74 26.035 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -11844,12 +11846,11 @@
 			)
 		)
 		(property "Value" "50V 0.01uF 0402 X7R"
-			(at 78.105 29.21 0)
+			(at 79.375 32.385 0)
 			(effects
 				(font
 					(size 0.5 0.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -12785,7 +12786,7 @@
 		(dnp no)
 		(uuid "36ca4154-2146-404b-a4a3-27bc35dbd40f")
 		(property "Reference" "C55"
-			(at 71.755 27.305 0)
+			(at 73.025 26.035 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -12794,12 +12795,11 @@
 			)
 		)
 		(property "Value" "50V 0.01uF 0402 X7R"
-			(at 72.39 29.21 0)
+			(at 73.66 31.115 0)
 			(effects
 				(font
 					(size 0.5 0.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -13262,7 +13262,7 @@
 		(dnp no)
 		(uuid "4930b782-a2d8-44af-abdd-e100d8aa54b6")
 		(property "Reference" "C57"
-			(at 81.915 27.305 0)
+			(at 83.185 26.035 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -13271,12 +13271,11 @@
 			)
 		)
 		(property "Value" "50V 0.01uF 0402 X7R"
-			(at 82.55 29.21 0)
+			(at 88.265 26.035 0)
 			(effects
 				(font
 					(size 0.5 0.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -14788,7 +14787,7 @@
 		(dnp no)
 		(uuid "794e441c-3e48-45ab-9952-ce93e9036680")
 		(property "Reference" "C53"
-			(at 60.325 27.305 0)
+			(at 61.595 26.035 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -14797,12 +14796,11 @@
 			)
 		)
 		(property "Value" "50V 4.7uF 0603 X5R"
-			(at 60.96 29.21 0)
+			(at 62.23 31.75 0)
 			(effects
 				(font
 					(size 0.5 0.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -16482,7 +16480,7 @@
 		(dnp no)
 		(uuid "a5aed2c5-ef77-468e-91a4-e59a00a1892e")
 		(property "Reference" "C54"
-			(at 66.04 27.305 0)
+			(at 67.31 26.035 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -16491,12 +16489,11 @@
 			)
 		)
 		(property "Value" "50V 0.01uF 0402 X7R"
-			(at 66.675 29.21 0)
+			(at 67.945 33.02 0)
 			(effects
 				(font
 					(size 0.5 0.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
